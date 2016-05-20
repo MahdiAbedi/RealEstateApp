@@ -1,0 +1,28 @@
+﻿.header {
+    position:absolute;
+    top:10px;
+    left:100px;
+    right:100px;
+    height:100px;
+    background-color: green;
+}
+
+.left {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    width: 200px;
+    bottom:2px;
+    background-color:grey;
+   
+}
+
+.right {
+    position: absolute;
+    top: 110px;
+    right: 100px;
+    left: 300px;
+    bottom:10px;
+    background-color:lightgray;
+    overflow:auto;
+}

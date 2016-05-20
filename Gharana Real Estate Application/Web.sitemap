@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/Backtohome.aspx" title="Backtohome" >
+
+
+    <siteMapNode url="~/Home.aspx" title="Home" />
+
+    <siteMapNode url="~/Login.aspx" title="Login" />
+
+    <siteMapNode url="~/CustomerOptions.aspx" title="Customer Options" >
+      <siteMapNode url="~/Properties.aspx" title="Display and Search For Properties with Parameters" />
+      <siteMapNode url="~/PropertyDetails.aspx" title="Display Details For Property" />
+      
+    </siteMapNode>
+
+    <siteMapNode url="~/AdminOptions.aspx" title="Admin Options" >
+      <siteMapNode url="~/DisplayPropertiesWithOffers.aspx" title="Properties with Offers" />
+      <siteMapNode url="~/GetOffers.aspx" title="Display offers to review" />
+      
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
